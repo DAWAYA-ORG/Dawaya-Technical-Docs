@@ -7,9 +7,9 @@ This repository contains the documentation for the Dawaya project, which include
 
 ## Table of Contents
 
-- [Database Documentation](https://github.com/Dawaya-Organization/Dawaya-Technical-Docs/tree/main/Docs/Database_Documentation)
-- [Frontend Documentation](https://github.com/Dawaya-Organization/Dawaya-Technical-Docs/tree/main/Docs/Frontend_Documentation)
-- [Backend Documentation](https://github.com/Dawaya-Organization/Dawaya-Technical-Docs/tree/main/Docs/Backend_Documentation)
+- [Database Documentation](https://github.com/DAWAYA-ORG/Dawaya-Technical-Docs/tree/main/Docs/Database_Documentation)
+- [Frontend Documentation](https://github.com/DAWAYA-ORG/Dawaya-Technical-Docs/tree/main/Docs/Frontend_Documentation)
+- [Backend Documentation](https://github.com/DAWAYA-ORG/Dawaya-Technical-Docs/tree/main/Docs/Backend_Documentation)
 
 
 ## How to Navigate
@@ -20,4 +20,4 @@ This repository contains the documentation for the Dawaya project, which include
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/DAWAYA-ORG/Dawaya-Technical-Docs/blob/main/LICENSE) file for details.
