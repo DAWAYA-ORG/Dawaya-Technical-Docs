@@ -4,6 +4,7 @@
 
 ```
 project-root/
+|-src
 ├── app/
 │   ├── layout.tsx
 │   ├── page.tsx
