@@ -1,6 +1,7 @@
 # ༺♦ Dawaya Frontend Project Structure ♦༻
 
 ## Structure ⌗
+
 ```
 project-root/
 ├── src/
@@ -8,26 +9,30 @@ project-root/
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
 │   │   ├── globals.css
-│   │   ├── (routes)/
-│   │   ├── Providers/  [optional]
+│   │   ├── (pages)/
 │   │   ├── (api)/
-│   │   └── **tests**/
 │   ├── components/
 │   │   ├── UI/
 │   │   ├── Layout/
 │   │   └── Sections/
+│   ├── lib/
 │   ├── hooks/
 │   ├── utils/
-│   │   └── types/
-│   ├── lib/
-│   ├── public/
-│   │   ├── images/
-│   │   ├── fonts/
-│   │   └── messages/
-│   ├── store/  [optional-redux]
+│   ├── types/
+│   ├── contexts/  [optional]
+│   └── store/     [optional - for state management]
+├── public/
+│   ├── images/
+│   ├── fonts/
+│   └── locales/
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
 ├── .github/
 │   └── workflows/
 ├── next.config.js
+├── jest.config.js
 ├── tailwind.config.js
 ├── tsconfig.json
 ├── package.json
@@ -35,9 +40,43 @@ project-root/
 ├── .env.test
 ├── .env
 ├── .gitignore
+├── .eslintrc.js
+├── .prettierrc
 └── README.md
-
 ```
+
+### Directory Structure Explanation
+
+- **src/**: Contains the main source code for the application.
+  - **app/**: Next.js 13+ app directory for file-based routing.
+  - **components/**: Reusable React components.
+  - **lib/**: Third-party library configs and abstractions.
+  - **hooks/**: Custom React hooks.
+  - **utils/**: Utility functions and helper methods.
+  - **types/**: TypeScript type definitions.
+  - **contexts/**: React context definitions (optional).
+  - **store/**: State management (optional, e.g., Redux setup).
+
+- **public/**: Static assets served by Next.js.
+
+- **tests/**: Test files for the application.
+  - **unit/**: Unit tests for individual components and functions.
+  - **integration/**: Integration tests for testing multiple components together.
+  - **e2e/**: End-to-end tests for testing the entire application flow.
+
+- **.github/**: GitHub-specific files, including CI/CD workflows.
+
+- **Configuration Files**:
+  - `next.config.js`: Next.js configuration
+  - `jest.config.js`: Jest testing framework configuration
+  - `tailwind.config.js`: Tailwind CSS configuration
+  - `tsconfig.json`: TypeScript configuration
+  - `package.json`: Project dependencies and scripts
+  - `.env*`: Environment variable files
+  - `.gitignore`: Specifies intentionally untracked files to ignore
+  - `.eslintrc.js`: ESLint configuration for code linting
+  - `.prettierrc`: Prettier configuration for code formatting
+
 ## 🚀 Features
 
 - **Search for Medication**: Users can enter the name of the medication they're looking for, and the application will find pharmacies with the medication in stock.
