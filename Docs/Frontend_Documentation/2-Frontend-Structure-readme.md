@@ -5,7 +5,7 @@
 ```
 project-root/
 |-src
-├── app/
+├   ── app/
 │   ├── layout.tsx
 │   ├── page.tsx
 │   ├── globals.css
@@ -13,30 +13,30 @@ project-root/
 │   ├── Providers/[optional]/
 │   ├── (api)/
 │   └── **tests**/
-├── components/
+├   ── components/
 │   ├── UI/
 │   ├── Layout/
 │   └── Sections/
-├── hooks/
-├── utils/
+├   ── hooks/
+├   ── utils/
 │   └── types/
-├── lib/
-├── public/
+├   ── lib/
+├   ── public/
 │   ├── images/
 │   ├── fonts/
 │   └── messages/
-├── store/[optional-redux]/
-├── .github/
+├   ── store/[optional-redux]/
+├   ── .github/
 │   └── workflows/
-├── next.config.js
-├── tailwind.config.js
-├── tsconfig.json
-├── package.json
-├── .env.local
-├── .env.test
-├── .env
-└── .gitignore
-└── README.md
+├   ── next.config.js
+├   ── tailwind.config.js
+├   ── tsconfig.json
+├   ── package.json
+├   ── .env.local
+├   ── .env.test
+├   ── .env
+└   ── .gitignore
+└   ── README.md
 ```
 
 ## 🚀 Features
