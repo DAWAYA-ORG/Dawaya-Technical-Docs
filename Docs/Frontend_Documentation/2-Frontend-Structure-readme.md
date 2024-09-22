@@ -1,44 +1,43 @@
 # ༺♦ Dawaya Frontend Project Structure ♦༻
 
 ## Structure ⌗
-
 ```
 project-root/
-|-src
-├   ── app/
-│   ├── layout.tsx
-│   ├── page.tsx
-│   ├── globals.css
-│   ├── (routes)/
-│   ├── Providers/[optional]/
-│   ├── (api)/
-│   └── **tests**/
-├   ── components/
-│   ├── UI/
-│   ├── Layout/
-│   └── Sections/
-├   ── hooks/
-├   ── utils/
-│   └── types/
-├   ── lib/
-├   ── public/
-│   ├── images/
-│   ├── fonts/
-│   └── messages/
-├   ── store/[optional-redux]/
-├   ── .github/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── globals.css
+│   │   ├── (routes)/
+│   │   ├── Providers/  [optional]
+│   │   ├── (api)/
+│   │   └── **tests**/
+│   ├── components/
+│   │   ├── UI/
+│   │   ├── Layout/
+│   │   └── Sections/
+│   ├── hooks/
+│   ├── utils/
+│   │   └── types/
+│   ├── lib/
+│   ├── public/
+│   │   ├── images/
+│   │   ├── fonts/
+│   │   └── messages/
+│   ├── store/  [optional-redux]
+├── .github/
 │   └── workflows/
-├   ── next.config.js
-├   ── tailwind.config.js
-├   ── tsconfig.json
-├   ── package.json
-├   ── .env.local
-├   ── .env.test
-├   ── .env
-└   ── .gitignore
-└   ── README.md
-```
+├── next.config.js
+├── tailwind.config.js
+├── tsconfig.json
+├── package.json
+├── .env.local
+├── .env.test
+├── .env
+├── .gitignore
+└── README.md
 
+```
 ## 🚀 Features
 
 - **Search for Medication**: Users can enter the name of the medication they're looking for, and the application will find pharmacies with the medication in stock.
